@@ -1,4 +1,7 @@
-function R = hadamard_prod(vec,mat, k, n)
+%This code computes the Hadamard Product of two vectors or matrices
+%Written by Jhelum Chakravorty
+
+function R = hadamard_prod(vec,mat)
 
 [a,b]=size(mat);
 
